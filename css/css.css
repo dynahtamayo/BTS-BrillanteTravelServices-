@@ -1,19 +1,38 @@
 
 section
-{font-size: 19px;
-outline-color: red;
-	outline:solid;
+{font-size: 23px;
+
+  outline:solid;
 text-align:center;
  display: flex;
   background-color:white;
+  flex-direction:column;
+
+
+
 }
 
-	h1{ font-family: fantasy;
-		font-size: 40px;
-		text-align: center;
-		
-	}
+  h1{ font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  body
+  {background-color:DodgerBlue;}
+  div
+  { align-self: center;
+    margin: 10px;
+    padding: none;
+    margin-left: 20px;
 
+}
+div.kikiam
+{border:20px solid blue;background-color: white;
+  padding: 30px;
+  margin: none;
+
+
+}
 div.gallery {
   border: 5px solid #ccc;
   border-radius: 8px;
