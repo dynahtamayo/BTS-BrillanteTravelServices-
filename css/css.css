@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 section
 {font-size: 23px;
@@ -101,3 +102,108 @@ body
 {background-color: lightblue;}
 
 
+=======
+
+section
+{font-size: 23px;
+
+  outline:solid;
+text-align:center;
+ display: flex;
+  background-color:white;
+  flex-direction:column;
+
+
+
+}
+
+  h1{ font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  body
+  {background-color:DodgerBlue;}
+  div
+  { align-self: center;
+    margin: 10px;
+    padding: none;
+    margin-left: 20px;
+
+}
+div.kikiam
+{border:20px solid blue;background-color: white;
+  padding: 30px;
+  margin: none;
+
+
+}
+div.gallery {
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  float: left;
+  width: 400px;
+  display: table-row;
+
+
+}
+
+div.gallery:hover {
+  border: 5px solid #777;
+  border-color:darkblue;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+
+
+* {
+  box-sizing:content-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.flex-container
+{
+  display: flex;
+  align-items: stretch;
+}
+h4
+{text-align: center;
+outline: solid;
+outline-color: black;}
+h3{
+  
+  outline: solid;
+}
+
+body
+{background-color: lightblue;}
+
+
+>>>>>>> 1602a46e6118948c6814b086b8434fa3ef79ab30
